@@ -1,0 +1,59 @@
+/* Contact section */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background: aquamarine;
+    font-size: 3.0rem; /* Change as needed */
+    color: green;;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack the labels and inputs */
+    max-width: 450px; /* Limit form width */
+    margin: 0 auto; /* Center the form */
+    border: 2px solid black;
+    background-color: lightgray;
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add some padding inside the form */
+}
+
+label {
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: black;
+    font-size: 35px; /* Add some padding*/
+    text-align: left;
+}
+
+input, textarea {
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1.5rem; /* Font size */
+    text-align: center;
+    resize: vertical;
+}
+
+
+    button {
+        align-self: center; /* Center the button */
+        padding: 20px 25px; /* Ensure it has padding */
+        background-color: blue; /* Button color */
+        color: white; /* Text color */
+        font-size: 20px;
+        border: none; /* No border */
+        cursor: pointer; /* Pointer cursor */
+        margin-top: 10px; /* Space above the button */
+        border-radius: 10px;
+        
+    }
+    
+    button:hover {
+        background-color: black; /* Change color on hover */
+        color: blue; /* Change text color on hover */
+        font-weight: bold; /* Bold text on hover */
+    }

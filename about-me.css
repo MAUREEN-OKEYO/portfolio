@@ -1,0 +1,30 @@
+/* About Me section */
+#about-me { 
+    margin: 0;
+    padding: 0;
+    background: aquamarine;
+}
+
+#about-me .headings {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: green;
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+#about-me #intro {
+    font-size: 1.5rem;
+    
+}
+#intro {
+    overflow: hidden; /* Clears the floated elements */
+    padding-bottom: 5px;
+}
+
+#intro p {
+    width: 100%; /* Adjusts width as needed */
+    padding-left: 0px;
+    font-size: 40px;
+    
+}

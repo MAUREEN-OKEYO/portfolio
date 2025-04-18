@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1440px){
+
+}
+
+@media (max-width: 1024px){
+
+
+}
+
+@media (max-width: 599px){
+
+}
+
+@media (min-width: 327px){
+
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    max-width: 2500px;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: 1; /* Ensure navbar is above other content */
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 3px solid black;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin:10 0;    
+    font-weight: bold;
+    font-family: century, sans-serif;
+}
+
+.navbar ul li {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.1s ease;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+
+/*Home section */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: aquamarine; /* For better visibility */
+}
+
+.main {
+    flex: 1; /* Allow the text to take available space */
+    padding-right: 20px; /* Space between text and image */
+    }
+
+.headings {
+    font-size: 2rem;
+    font-family: 'Century', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sub-heading {
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: normal; /* Make it less bold if desired */
+    color: green; /* Change color if desired */
+    text-align: center;
+    margin-left: 0;
+}
+
+
+.btn {
+    padding: 20px;
+    display: block; /* Change to block to center it below the text */
+    margin: 20px auto; /* Center the button and add space around it */
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+        
+.btn:hover {
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+}
+
+
+.image-container {
+    flex: 1; /* Allow the image container to take available space */
+    text-align: center; /* Center image horizontally */
+}
+
+.image-container img {
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: large;
+
+}
+    
+    
+    
+
+    
+
